@@ -47,20 +47,20 @@ Where:
 
 ###### Example
 
-`./sendTx recivingAddress 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1`
+`./sendTx 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1`
 
 This will send **0.1 ETH** from your address to **0xd3823daae102A9E8663CAE63D3574cC27E7d9726**, _gas price_ is read from the network and the _gas_ amount used is, by default, 12000
 
 ###### Customize gas and gas price
 
-`./sendTx recivingAddress 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1 --gas 40000`
+`./sendTx 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1 --gas 40000`
 
 This will send **0.1 ETH** from your address to **0xd3823daae102A9E8663CAE63D3574cC27E7d9726**, max _gas_ amount is 40000 and _gas price_ is read from the network
 
-`./sendTx recivingAddress 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1 --gasprice 29000000000`
+`./sendTx 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1 --gasprice 29000000000`
 
 This will send **0.1 ETH** from your address to **0xd3823daae102A9E8663CAE63D3574cC27E7d9726**, _gas price_ is 29000000000 WEI and the _gas_ amount used is, by default, 12000
 
-`./sendTx recivingAddress 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1 --gasprice 29000000000 --gas 40000`
+`./sendTx 0xd3823daae102A9E8663CAE63D3574cC27E7d9726 0.1 --gasprice 29000000000 --gas 40000`
 
 This will send **0.1 ETH** from your address to **0xd3823daae102A9E8663CAE63D3574cC27E7d9726**, _gas price_ is 29000000000 WEI and max _gas_ amount is 40000
